@@ -99,6 +99,8 @@ public class Main {
     System.out.println("Если спортсмен будет терять в день по "+decreasOneDay1+" грамм, то он достигнет результата за "+numberDays1+" дней");
     int numberDays2=totaldecreasWeight/decreasOneDay2;
     System.out.println("Если спортсмен будет терять в день по "+decreasOneDay2+" грамм, то он достигнет результата за "+numberDays2+" дней");
+    int avaregeDays=(numberDays2+numberDays1)/2;
+    System.out.println("В среднем требуется "+avaregeDays+" дней для достижения результата");
     }
     public static void task8() {
     int salaryMasha=67760;
